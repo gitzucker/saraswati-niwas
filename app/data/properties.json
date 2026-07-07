@@ -52,7 +52,7 @@
     "rooms": [
       { "type": "Single Sharing", "available": true },
       { "type": "Double Sharing", "available": true },
-      { "type": "Triple Sharing", "available": false }
+      { "type": "Triple Sharing", "available": true }
     ],
     "coordinates": { "lat": 28.4650, "lng": 77.5000 },
     "featured": true,
