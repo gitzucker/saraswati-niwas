@@ -4,6 +4,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import styles from "./BookingModal.module.css";
 import Button from "./Button";
+import { supabase } from "../../lib/supabase";
 
 export default function BookingModal({
   isOpen,
@@ -19,16 +20,37 @@ export default function BookingModal({
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate an API call
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const { error } = await supabase
+        .from('bookings')
+        .insert([
+          { 
+            name, 
+            phone, 
+            email, 
+            intent: option, 
+            property_name: propertyName || "Saraswati Niwas" 
+          }
+        ]);
+        
+      if (error) throw error;
+      
       alert(`Your request for a ${option === "visit" ? "Hostel Visit" : "Call Back"} has been received. Our team will contact you shortly!`);
+      // Reset form
+      setName("");
+      setPhone("");
+      setEmail("");
       onClose();
-    }, 1000);
+    } catch (error) {
+      console.error("Error submitting booking:", error);
+      alert("There was an error submitting your request. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
