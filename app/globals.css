@@ -3,12 +3,16 @@
    ============================================================ */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500&family=Cinzel:wght@400;500;600;700;800&display=swap');
 
 /* ============================================================
    1. DESIGN TOKENS (CSS Custom Properties)
    ============================================================ */
 :root {
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-logo: 'Cinzel', serif;
+
   /* --- Colors --- */
   --primary: #6C63FF;
   --primary-hover: #5A52D5;

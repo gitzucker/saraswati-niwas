@@ -1,30 +1,8 @@
-import { Outfit, DM_Sans, Cinzel } from 'next/font/google';
 import Script from 'next/script';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import FloatingWidgets from './components/shared/FloatingWidgets';
 import './globals.css';
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  variable: '--font-heading',
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700', '800', '900'],
-});
-
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  variable: '--font-body',
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700'],
-});
-
-const cinzel = Cinzel({
-  subsets: ['latin'],
-  variable: '--font-logo',
-  display: 'swap',
-  weight: ['400', '500', '600', '700', '800'],
-});
 
 export const metadata = {
   title: 'Saraswati Niwas — Your Home Away From Home',
@@ -81,7 +59,7 @@ export default function RootLayout({ children }) {
   const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   return (
-    <html lang="en" className={`${outfit.variable} ${dmSans.variable} ${cinzel.variable}`}>
+    <html lang="en">
       <head>
         {/* Google Analytics */}
         {GA_ID && (
