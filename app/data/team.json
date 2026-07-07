@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tm-sudan",
+    "name": "Sudan Bhati",
+    "role": "Co-Owner & Founder",
+    "bio": "Sudan founded Saraswati Niwas with a vision to provide safe, comfortable, and top-tier accommodation for students migrating to Greater Noida.",
+    "image": "/images/owners/sudan-bhati.jpg"
+  },
+  {
+    "id": "tm-rishab",
+    "name": "Rishab Bhati",
+    "role": "Co-Owner & Managing Director",
+    "bio": "Rishab leads our operations and student relations, ensuring our hostel spaces are continuously upgraded with modern facilities and robust security.",
+    "image": "/images/owners/rishab-bhati.jpg"
+  },
+  {
+    "id": "tm2",
+    "name": "Sunita Devi",
+    "role": "Chief Operations Officer",
+    "bio": "Sunita oversees dining services, housekeeping, and warden management across all branches, guaranteeing home-style meal quality.",
+    "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sunita"
+  },
+  {
+    "id": "tm3",
+    "name": "Vikram Singh",
+    "role": "Head of Security",
+    "bio": "Vikram directs our biometric gate access logs, CCTV patrols, and physical security teams to maintain a zero-incident student stay environment.",
+    "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vikram"
+  }
+]

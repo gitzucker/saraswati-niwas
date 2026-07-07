@@ -1,0 +1,421 @@
+.sectionContainer {
+  padding: 100px 0;
+  background-color: var(--surface);
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 50px auto;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  color: #1A1A2E;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Map Grid Layout */
+.mapGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* --- Map Canvas Wrapper --- */
+.mapCanvasWrapper {
+  background: #ffffff;
+  border-radius: 28px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-lg);
+  padding: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mapHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 14px;
+  text-align: left;
+}
+
+.mapStatus {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mapStatus::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #25D366;
+  display: inline-block;
+  box-shadow: 0 0 8px #25D366;
+}
+
+.mapHint {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Vector Blueprint Map Canvas */
+.vectorMap {
+  width: 100%;
+  height: 380px;
+  background: radial-gradient(circle, #1E1E38 0%, #111122 100%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Vector Roads */
+.roadLine {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.roadYamuna {
+  width: 25px;
+  height: 120%;
+  top: -10%;
+  right: 15%;
+  transform: rotate(-15deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+}
+
+.roadMetroLine {
+  width: 100%;
+  height: 4px;
+  top: 45%;
+  left: 0;
+  background: repeating-linear-gradient(90deg, #6C63FF 0px, #6C63FF 10px, transparent 10px, transparent 20px);
+  opacity: 0.35;
+}
+
+.roadAlpha {
+  width: 100%;
+  height: 16px;
+  top: 30%;
+  left: 0;
+  transform: rotate(5deg);
+}
+
+.roadKP {
+  width: 16px;
+  height: 100%;
+  left: 55%;
+  top: 0;
+}
+
+/* Pari Chowk intersection */
+.pariChowkCircle {
+  position: absolute;
+  top: 68%;
+  left: 58%;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1.5px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pariChowkCircle span {
+  font-family: var(--font-body);
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Map Markers */
+.mapPin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  background: transparent;
+  border: none;
+  color: #FF7A00;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mapPin:hover {
+  color: #ffaa44;
+  transform: translate(-50%, -100%) scale(1.18);
+}
+
+.activeMapPin {
+  color: #ffaa44 !important;
+  transform: translate(-50%, -100%) scale(1.22);
+}
+
+.pinPulse {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 12px;
+  height: 12px;
+  background: currentColor;
+  border-radius: 50%;
+  animation: pulseGlow 1.8s infinite ease-out;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes pulseGlow {
+  0% { transform: translate(-50%, 50%) scale(1); opacity: 0.8; }
+  100% { transform: translate(-50%, 50%) scale(2.6); opacity: 0; }
+}
+
+.miniLabel {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(26, 26, 46, 0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #ffffff;
+  font-size: 0.55rem;
+  font-weight: 900;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+}
+
+/* --- Detail Panel & 3D card --- */
+.detailPanel {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tiltCard {
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  transform: perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transform-style: preserve-3d;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.06),
+    0 5px 15px rgba(0, 0, 0, 0.02);
+}
+
+.hostelCard {
+  background: #ffffff;
+  border-radius: 28px;
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  text-align: left;
+}
+
+.imageBox {
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+
+.roomImg {
+  object-fit: cover;
+}
+
+.genderBadge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.genderBadge[data-gender="girls"] {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+}
+
+.genderBadge[data-gender="boys"] {
+  background: linear-gradient(135deg, var(--primary) 0%, #5146e6 100%);
+}
+
+.genderBadge[data-gender="unisex"] {
+  background: linear-gradient(135deg, #4ECDC4 0%, #2980B9 100%);
+}
+
+/* Card Content */
+.cardContent {
+  padding: 24px 32px;
+}
+
+.ratingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.ratingBadge {
+  background: #FEF7E0;
+  color: #B88E2F;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.priceTag {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.priceTag strong {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.hostelName {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: #1A1A2E;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.taglineText {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.descriptionText {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.amenitiesRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.amenityBadge {
+  background: var(--surface-alt);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.ctaRow {
+  display: flex;
+}
+
+/* Empty Card Placeholder */
+.emptyCard {
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px dashed var(--border);
+  border-radius: 28px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.emptyCard h4 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 850;
+  color: #1A1A2E;
+  margin: 0;
+}
+
+.emptyCard p {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  max-width: 250px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .mapGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionContainer {
+    padding: 60px 0;
+  }
+  .cardContent {
+    padding: 20px 24px;
+  }
+}

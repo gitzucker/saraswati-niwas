@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq1",
+    "category": "General",
+    "question": "What is the booking process for Saraswati Niwas?",
+    "answer": "You can book directly through our website by filling out the enquiry form, scheduling a physical visit, selecting your preferred room type (single, double, or triple), paying the security deposit (equivalent to one month's rent), and signing the digital agreement."
+  },
+  {
+    "id": "faq2",
+    "category": "General",
+    "question": "Are visitors allowed in the hostels?",
+    "answer": "Yes, visitors are allowed in the common areas and dining zones between 9:00 AM and 8:00 PM. For security reasons, overnight stays of visitors are not permitted in the resident rooms. Special guest rooms can be booked in advance based on availability."
+  },
+  {
+    "id": "faq3",
+    "category": "Amenities",
+    "question": "Is high-speed internet unlimited?",
+    "answer": "Absolutely! We provide unlimited, high-speed optical fiber WiFi (up to 200 Mbps) with individual credentials for each student to ensure lag-free online classes and entertainment."
+  },
+  {
+    "id": "faq4",
+    "category": "Amenities",
+    "question": "What kind of food is served in the mess?",
+    "answer": "We serve a nutritious four-meal menu daily (Breakfast, Lunch, High Tea, and Dinner). We prepare both vegetarian and non-vegetarian dishes in separate kitchen sections using fresh, locally sourced ingredients."
+  },
+  {
+    "id": "faq5",
+    "category": "Payments",
+    "question": "What are the payment modes accepted?",
+    "answer": "We accept all major payment modes including UPI (GPay, PhonePe, Paytm), Net Banking, Debit/Credit Cards, and direct bank transfers. We do not accept cash payments for security and accountability reasons."
+  }
+]

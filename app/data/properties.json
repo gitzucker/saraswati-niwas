@@ -1,0 +1,349 @@
+[
+  {
+    "id": "prop-b1",
+    "slug": "saraswati-niwas-b1-branch",
+    "name": "Saraswati Niwas - B1 Branch",
+    "type": "boys",
+    "location": "Sector Alpha 2, Greater Noida",
+    "area": "Alpha 2",
+    "city": "Greater Noida",
+    "rating": 4.8,
+    "reviews": 124,
+    "amenities": ["WiFi", "AC", "Laundry", "Food", "Security", "CCTV", "Power Backup"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/common-area.png",
+      "/images/properties/dining-area.png"
+    ],
+    "description": "Secure, fully managed student stay located in Alpha 2, Greater Noida. Features spacious rooms, premium utilities, daily cleaning, and biometric security systems.",
+    "longDescription": [
+      "Saraswati Niwas - B1 Branch is our premium boys' accommodation located in Sector Alpha 2. Known for its peaceful academic environment, this hostel is a preferred choice for students looking for high-quality furnished rooms and an excellent study-friendly atmosphere.",
+      "The branch is equipped with a modern mess serving 4 freshly prepared vegetarian meals daily, a high-speed unlimited fiber Wi-Fi network (200 Mbps), and a 24/7 power backup system to ensure you are never disconnected from your online academic classes.",
+      "Safety is highly prioritized here with round-the-clock CCTV cameras, automated biometric entrance gates, and a professional on-site warden who is always available to handle security and general student queries."
+    ],
+    "facilitiesDetails": [
+      "Furnished rooms with premium study table, wardrobe, and ergonomic chair setup.",
+      "200 Mbps unlimited optical-fiber Wi-Fi network access.",
+      "24/7 geysers and hot water supply in all bathrooms.",
+      "Daily professional housekeeping and deep bathroom sanitization twice a week."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Poha, Tea | Lunch: Rajma, Rice, Roti, Salad | Dinner: Aloo Gobi, Dal Tadka, Roti, Kheer",
+      "Tuesday": "Breakfast: Stuffed Aloo Paratha, Curd | Lunch: Kadhi Pakoda, Roti, Rice | Dinner: Mix Veg, Dal, Roti, Pickle",
+      "Wednesday": "Breakfast: Idli Sambhar, Coconut Chutney | Lunch: Chole Bhature, Rice | Dinner: Paneer Masala, Dal Makhani, Roti",
+      "Thursday": "Breakfast: Bread Butter, Sprouts, Milk | Lunch: Ghiya Ki Sabji, Dal, Rice, Roti | Dinner: Veg Pulao, Curd, Salad",
+      "Friday": "Breakfast: Puri Bhaji, Tea | Lunch: Dal Fry, Rice, Roti, Salad | Dinner: Shahi Paneer, Roti, Sweet Vermicelli",
+      "Saturday": "Breakfast: Pav Bhaji | Lunch: Khichdi, Roti, Papad, Pickle | Dinner: Kofta Curry, Dal Fry, Rice, Roti",
+      "Sunday": "Breakfast: Special Suji Chilla, Coffee | Lunch: Veg Biryani, Boondi Raita | Dinner: Dal Makhani, Paneer, Naan, Gulab Jamun"
+    },
+    "collegeDistances": [
+      { "name": "IIMT College of Engineering", "distance": "1.2 km", "time": "12 mins walk / 3 mins drive" },
+      { "name": "GL Bajaj Institute of Technology", "distance": "1.8 km", "time": "18 mins walk / 5 mins drive" },
+      { "name": "Sharda University", "distance": "2.9 km", "time": "7 mins drive" },
+      { "name": "Galgotias University", "distance": "3.5 km", "time": "9 mins drive" }
+    ],
+    "rules": [
+      "Gates close strictly at 10:30 PM. Late entries require warden authorization.",
+      "Parent/Guardian entry is permitted in the reception and lounge between 10:00 AM - 7:00 PM.",
+      "Overnight guests/friends are not allowed in student rooms.",
+      "Loud music/disturbances are prohibited in the quiet study zones.",
+      "Smoking, alcohol, and prohibited substances are strictly banned."
+    ],
+    "rooms": [
+      { "type": "Single Sharing", "available": true },
+      { "type": "Double Sharing", "available": true },
+      { "type": "Triple Sharing", "available": false }
+    ],
+    "coordinates": { "lat": 28.4650, "lng": 77.5000 },
+    "featured": true,
+    "gender": "male"
+  },
+  {
+    "id": "prop-b10",
+    "slug": "saraswati-niwas-b10-branch",
+    "name": "Saraswati Niwas - B10 Branch",
+    "type": "boys",
+    "location": "Knowledge Park 3, Greater Noida",
+    "area": "Knowledge Park 3",
+    "city": "Greater Noida",
+    "rating": 4.7,
+    "reviews": 92,
+    "amenities": ["WiFi", "AC", "Laundry", "Food", "Security", "CCTV", "Gym", "Power Backup"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/common-area.png",
+      "/images/properties/study-room.png"
+    ],
+    "description": "Premium boys' hostel situated in Knowledge Park 3, close to major institutions. Offers modern workspaces, robust internet, gym access, and professional catering.",
+    "longDescription": [
+      "Saraswati Niwas - B10 Branch is our flagship boys' residence located in Knowledge Park 3. Designed specifically for university students, it offers premium lifestyle infrastructure including shared gym space, dedicated study halls, and high-quality double and single sharing options.",
+      "Located just a few minutes away from major institutes like GL Bajaj and KCC, it minimizes commute time, allowing students to focus more on their college curriculum and projects.",
+      "Meals are curated with a high-nutrition weekly rotating menu. The building features complete biometric security gates, professional security guards on 24/7 rotation, and high-speed Wi-Fi throughout all rooms."
+    ],
+    "facilitiesDetails": [
+      "In-house physical fitness gym setup with basic weights and treadmills.",
+      "Dedicated, quiet study lounge on the ground floor with high-speed internet ports.",
+      "Automatic biometric scanners and digital access cards for students.",
+      "Complete 24/7 power backup including AC systems during summer months."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Poha, Milk/Tea | Lunch: Dal Tadka, Seasonal Veg, Roti, Rice | Dinner: Paneer Kadhai, Dal Makhani, Roti",
+      "Tuesday": "Breakfast: Gobi Paratha, Curd | Lunch: Rajma, Jeera Rice, Roti, Salad | Dinner: Aloo Shimla Mirch, Dal, Roti",
+      "Wednesday": "Breakfast: Veg Cutlet, Tea | Lunch: Kadhi Chawal, Roti | Dinner: Paneer Bhurji, Dal Fry, Roti, Halwa",
+      "Thursday": "Breakfast: Sprouts, Bread Butter | Lunch: Mix Veg, Dal, Rice, Roti | Dinner: Seasonal Bhindi, Dal, Roti, Papad",
+      "Friday": "Breakfast: Methi Paratha | Lunch: Chole, Rice, Roti, Salad | Dinner: Shahi Paneer, Roti, Rice, Sweet Ice Cream",
+      "Saturday": "Breakfast: Pav Bhaji | Lunch: Dal Khichdi, Roti, Curd | Dinner: Soyabean Masala, Dal Fry, Roti, Salad",
+      "Sunday": "Breakfast: Aloo Puri, Coffee | Lunch: Veg Pulav, Bundi Raita | Dinner: Special Dal Makhani, Paneer, Naan, Gulab Jamun"
+    },
+    "collegeDistances": [
+      { "name": "GL Bajaj Institute of Technology", "distance": "0.6 km", "time": "6 mins walk" },
+      { "name": "IIMT College of Engineering", "distance": "0.9 km", "time": "9 mins walk" },
+      { "name": "KCC Institute of Technology", "distance": "0.4 km", "time": "4 mins walk" },
+      { "name": "Sharda University", "distance": "1.5 km", "time": "4 mins drive" }
+    ],
+    "rules": [
+      "Hostel gates close at 10:30 PM. Late entries are strictly monitored.",
+      "Biometric attendance registration is mandatory twice a day (morning and night).",
+      "Guests are not allowed inside student rooms without written warden permission.",
+      "Gym timings are structured to separate student batches and maintain hygiene.",
+      "Zero tolerance policy for drugs, alcohol, or smoking inside the premises."
+    ],
+    "rooms": [
+      { "type": "Single Sharing", "available": true },
+      { "type": "Double Sharing", "available": true }
+    ],
+    "coordinates": { "lat": 28.4735, "lng": 77.5110 },
+    "featured": true,
+    "gender": "male"
+  },
+  {
+    "id": "prop-b16",
+    "slug": "saraswati-niwas-b16-branch",
+    "name": "Saraswati Niwas - B16 Branch",
+    "type": "boys",
+    "location": "Knowledge Park 3, Greater Noida",
+    "area": "Knowledge Park 3",
+    "city": "Greater Noida",
+    "rating": 4.6,
+    "reviews": 110,
+    "amenities": ["WiFi", "Laundry", "Food", "Security", "CCTV", "Power Backup"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/dining-area.png",
+      "/images/properties/common-area.png"
+    ],
+    "description": "Vibrant student residence in Knowledge Park 3. Fully managed hostel with nutritious food menus, reliable backup utilities, and 24/7 security services.",
+    "longDescription": [
+      "Saraswati Niwas - B16 Branch offers comfortable, cost-effective student accommodations in Knowledge Park 3. It features double and triple occupancy rooms designed with optimal study spaces and private cabinets.",
+      "The mess is highly popular for its home-style cooking and hygienic preparation, offering 4 vegetarian meals daily. Weekly laundry services and daily housekeeping keep the campus clean and organized.",
+      "With high-speed Wi-Fi connectivity and robust power backup systems, this branch provides everything a student needs to achieve academic success without worrying about daily chores."
+    ],
+    "facilitiesDetails": [
+      "Spacious rooms with individual beds, study tables, and wardrobe locks.",
+      "Optical fiber Wi-Fi access throughout the property.",
+      "Filtered RO drinking water plants installed on all floors.",
+      "Housekeeping cleaning service every morning."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Bread Jam, Milk/Tea | Lunch: Dal Arhar, Aloo Baingan, Roti, Rice | Dinner: Lauki Sabji, Dal Fry, Roti, Salad",
+      "Tuesday": "Breakfast: Poha, Tea | Lunch: Rajma Chawal, Roti, Salad | Dinner: Aloo Matar, Dal Tadka, Roti",
+      "Wednesday": "Breakfast: Suji Upma | Lunch: Kadhi Pakoda, Rice, Roti | Dinner: Kadhai Paneer, Dal Makhani, Roti",
+      "Thursday": "Breakfast: Aloo Paratha, Curd | Lunch: Seasonal Bhindi, Dal, Rice, Roti | Dinner: Dal Fry, Roti, Rice, Custard",
+      "Friday": "Breakfast: Sprouts, Tea | Lunch: Soyabean, Dal, Rice, Roti | Dinner: Paneer Butter Masala, Roti, Salad",
+      "Saturday": "Breakfast: Puri Sabji | Lunch: Khichdi, Papad, Curd | Dinner: Mix Veg, Dal Fry, Roti, Rice",
+      "Sunday": "Breakfast: Suji Halwa, Coffee | Lunch: Veg Pulao, Raita | Dinner: Special Dal Makhani, Paneer, Naan, Sweet"
+    },
+    "collegeDistances": [
+      { "name": "GL Bajaj Institute of Technology", "distance": "0.7 km", "time": "7 mins walk" },
+      { "name": "IIMT College of Engineering", "distance": "0.8 km", "time": "8 mins walk" },
+      { "name": "Galgotias College", "distance": "1.9 km", "time": "5 mins drive" }
+    ],
+    "rules": [
+      "Gates close at 10:30 PM daily. Prior permission required for weekend outings.",
+      "Mess timings must be respected. Food is not served after kitchen hours.",
+      "Loud music/noises are prohibited in the hostel building.",
+      "Guests are allowed in the common areas only during visiting hours.",
+      "Any damage to hostel property will be charged directly to the security deposit."
+    ],
+    "rooms": [
+      { "type": "Double Sharing", "available": true },
+      { "type": "Triple Sharing", "available": true }
+    ],
+    "coordinates": { "lat": 28.4715, "lng": 77.5075 },
+    "featured": false,
+    "gender": "male"
+  },
+  {
+    "id": "prop-b17",
+    "slug": "saraswati-niwas-b17-girls-branch",
+    "name": "Saraswati Niwas - B17 Branch (Girls)",
+    "type": "girls",
+    "location": "Knowledge Park 3, Greater Noida",
+    "area": "Knowledge Park 3",
+    "city": "Greater Noida",
+    "rating": 4.9,
+    "reviews": 142,
+    "amenities": ["WiFi", "AC", "Laundry", "Food", "Security", "CCTV", "Study Room", "Gym"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/study-room.png",
+      "/images/properties/common-area.png"
+    ],
+    "description": "Ultra-secure girls' hostel located near IIT Extension, KCC, and GL Bajaj campuses. Featuring 3-tier biometric gates, full-time wardens, study rooms, and robust CCTV networks.",
+    "longDescription": [
+      "Saraswati Niwas - B17 Girls Branch is our premier, highly secure accommodation for girls, strategically located near the IIT Extension and major college campuses in Knowledge Park 3. It sets the highest standard for student safety and luxury living.",
+      "The building is protected by a 3-tier security grid, including digital biometric gates, professional female security guards on 24/7 duty, and resident female wardens. The campus features dedicated quiet study lounges, an indoor gym, and recreation spaces.",
+      "Residents enjoy a daily rotating mess menu of nutritious, hygienic vegetarian food, unlimited 200 Mbps Wi-Fi, and weekly laundry service. This branch provides parents with complete peace of mind while supporting students' academic success."
+    ],
+    "facilitiesDetails": [
+      "3-tier biometric security gates with automated SMS notifications to parents.",
+      "Resident female wardens and 24/7 security guards.",
+      "Indoor fitness studio/gym exclusive for female residents.",
+      "Quiet, air-conditioned study hall with high-speed internet terminals."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Idli Sambhar, Coconut Chutney | Lunch: Rajma Chawal, Roti, Salad | Dinner: Seasonal Veg, Dal Fry, Roti, Sweets",
+      "Tuesday": "Breakfast: Paneer Paratha, Curd | Lunch: Dal Makhani, Jeera Rice, Roti | Dinner: Aloo Shimla Mirch, Dal, Roti",
+      "Wednesday": "Breakfast: Poha, Milk/Tea | Lunch: Chole Bhature, Rice | Dinner: Matar Paneer, Dal Fry, Roti, Halwa",
+      "Thursday": "Breakfast: Sprouts, Bread Toast | Lunch: seasonal Torai, Dal, Rice, Roti | Dinner: Veg Pulao, Curd, Salad",
+      "Friday": "Breakfast: Puri Bhaji, Tea | Lunch: Kadhi Chawal, Roti | Dinner: Kadhai Paneer, Dal Makhani, Naan, Ice Cream",
+      "Saturday": "Breakfast: Pav Bhaji | Lunch: Dal Khichdi, Papad, Curd | Dinner: Soya Chaap Curry, Dal, Rice, Roti",
+      "Sunday": "Breakfast: Suji Upma, Coffee | Lunch: Special Veg Biryani, Raita | Dinner: Malai Kofta, Dal Fry, Roti, Gulab Jamun"
+    },
+    "collegeDistances": [
+      { "name": "GL Bajaj Institute of Technology", "distance": "0.4 km", "time": "4 mins walk" },
+      { "name": "KCC Institute of Technology", "distance": "0.2 km", "time": "2 mins walk" },
+      { "name": "IIMT College of Engineering", "distance": "0.7 km", "time": "7 mins walk" },
+      { "name": "Sharda University", "distance": "1.6 km", "time": "4 mins drive" }
+    ],
+    "rules": [
+      "Strict gate closing curfew at 10:30 PM. Extensions only allowed with parent email/phone confirmation.",
+      "No male guests/visitors allowed inside the hostel rooms at any time.",
+      "Biometric register checkout required for weekend visits to home town.",
+      "Quiet study hall rules must be observed. Mobile phones must be kept on silent.",
+      "Housekeeping staff will clean rooms daily between 10:00 AM - 1:00 PM."
+    ],
+    "rooms": [
+      { "type": "Single Sharing", "available": true },
+      { "type": "Double Sharing", "available": true },
+      { "type": "Triple Sharing", "available": true }
+    ],
+    "coordinates": { "lat": 28.4705, "lng": 77.5100 },
+    "featured": true,
+    "gender": "female"
+  },
+  {
+    "id": "prop-ar1",
+    "slug": "saraswati-niwas-ar1-branch",
+    "name": "Saraswati Niwas - AR1 Branch",
+    "type": "boys",
+    "location": "Knowledge Park 3, Greater Noida",
+    "area": "Knowledge Park 3",
+    "city": "Greater Noida",
+    "rating": 4.7,
+    "reviews": 85,
+    "amenities": ["WiFi", "AC", "Laundry", "Food", "Security", "CCTV", "Power Backup"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/common-area.png",
+      "/images/properties/dining-area.png"
+    ],
+    "description": "Fully furnished boys' hostel located in the heart of Knowledge Park 3, Namoli area. Offering structured study layouts, recreation spaces, and high-quality mess menus.",
+    "longDescription": [
+      "Saraswati Niwas - AR1 Branch is our premium boys' accommodation located in the Knowledge Park 3 area. Designed with modern architecture, this branch caters to students from nearby engineering and management colleges.",
+      "Rooms are clean, bright, and fully furnished with custom cabinets, modern study tables, and geyser-equipped bathrooms. High-speed internet (200 Mbps) is available in all areas to support online projects and study sessions.",
+      "A healthy, balanced mess menu offers 4 meals a day. Security is managed by guards on a 24/7 schedule, biometric gate access, and high-definition CCTV coverage."
+    ],
+    "facilitiesDetails": [
+      "Premium wooden furniture including beds, writing tables, and storage closets.",
+      "High-speed fiber-optic Wi-Fi network setup.",
+      "Hygienic vegetarian mess serving 4 daily meals.",
+      "Continuous power backup with automatic diesel generator systems."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Bread Butter, Milk | Lunch: Rajma Chawal, Roti, Salad | Dinner: Aloo Gobi, Dal Tadka, Roti",
+      "Tuesday": "Breakfast: Poha, Tea | Lunch: Kadhi Pakoda, Rice, Roti | Dinner: Seasonal Bhindi, Dal, Roti",
+      "Wednesday": "Breakfast: Stuffed Paratha | Lunch: Chole Chawal, Roti | Dinner: Paneer Butter Masala, Dal, Roti",
+      "Thursday": "Breakfast: Sprouts, Tea | Lunch: Lauki, Dal Fry, Rice, Roti | Dinner: Veg Pulao, Curd, Salad",
+      "Friday": "Breakfast: Puri Bhaji | Lunch: Dal Fry, Rice, Roti | Dinner: Shahi Paneer, Roti, Sweet Veg",
+      "Saturday": "Breakfast: Pav Bhaji | Lunch: Khichdi, Papad, Curd | Dinner: Kofta Curry, Dal Fry, Roti",
+      "Sunday": "Breakfast: Chilla, Coffee | Lunch: Veg Biryani, Raita | Dinner: Dal Makhani, Paneer, Naan, Gulab Jamun"
+    },
+    "collegeDistances": [
+      { "name": "GL Bajaj Institute of Technology", "distance": "0.9 km", "time": "9 mins walk / 3 mins drive" },
+      { "name": "Sharda University", "distance": "1.8 km", "time": "5 mins drive" },
+      { "name": "Galgotias University", "distance": "2.5 km", "time": "6 mins drive" }
+    ],
+    "rules": [
+      "Gates close strictly at 10:30 PM. Late entry is subject to warden query.",
+      "Visitors are allowed only in the lounge during daytime hours.",
+      "Quiet hours must be maintained after 11:00 PM.",
+      "Biometric verification required during check-out and check-in.",
+      "Zero tolerance for illegal substances or damage to hostel assets."
+    ],
+    "rooms": [
+      { "type": "Double Sharing", "available": true },
+      { "type": "Triple Sharing", "available": true }
+    ],
+    "coordinates": { "lat": 28.4740, "lng": 77.5125 },
+    "featured": false,
+    "gender": "male"
+  },
+  {
+    "id": "prop-ar2",
+    "slug": "saraswati-niwas-ar2-branch",
+    "name": "Saraswati Niwas - AR2 Branch (Girls)",
+    "type": "girls",
+    "location": "Knowledge Park 3, Greater Noida",
+    "area": "Knowledge Park 3",
+    "city": "Greater Noida",
+    "rating": 4.8,
+    "reviews": 98,
+    "amenities": ["WiFi", "AC", "Laundry", "Food", "Security", "CCTV", "Study Room"],
+    "images": [
+      "/images/properties/room-interior.png",
+      "/images/properties/study-room.png",
+      "/images/properties/dining-area.png"
+    ],
+    "description": "Comfortable and secure girls' hostel branch in Knowledge Park 3. Provides clean room servicing, dedicated security patrols, nutritious meals, and high-speed internet.",
+    "longDescription": [
+      "Saraswati Niwas - AR2 Girls Branch offers a safe, peaceful, and fully-managed residency option for female students in Knowledge Park 3. Built around a private courtyard layout, this branch boasts a high sense of community and security.",
+      "Female security personnel manage the entrance and biometric check-ins round the clock. Highly hygienic food, daily cleaning, and weekly laundry service are fully handled by in-house teams.",
+      "Rooms are spacious, air-conditioned, and feature dedicated study desks, geysers, and robust Wi-Fi connections, creating an excellent workspace for students."
+    ],
+    "facilitiesDetails": [
+      "Secure biometric digital locks and female guards on 24/7 rotation.",
+      "Spacious rooms with private lockers, closets, and desks.",
+      "Unlimited 200 Mbps fiber internet access.",
+      "Dedicated resident wardens to support health and emergency needs."
+    ],
+    "messMenu": {
+      "Monday": "Breakfast: Idli Sambhar | Lunch: Rajma Chawal, Roti, Salad | Dinner: Seasonal Veg, Dal, Roti",
+      "Tuesday": "Breakfast: Aloo Paratha, Curd | Lunch: Kadhi Pakoda, Rice, Roti | Dinner: Mix Veg, Dal Fry, Roti",
+      "Wednesday": "Breakfast: Poha, Tea | Lunch: Chole Bhature, Rice | Dinner: Matar Paneer, Dal Makhani, Roti",
+      "Thursday": "Breakfast: Sprouts, Milk/Tea | Lunch: seasonal Torai, Dal, Rice, Roti | Dinner: Veg Pulao, Curd, Salad",
+      "Friday": "Breakfast: Puri Bhaji | Lunch: Dal Fry, Rice, Roti | Dinner: Kadhai Paneer, Dal Makhani, Naan, Sweet",
+      "Saturday": "Breakfast: Pav Bhaji | Lunch: Khichdi, Curd, Papad | Dinner: Soya Curry, Dal, Rice, Roti",
+      "Sunday": "Breakfast: Upma, Coffee | Lunch: Special Veg Biryani, Raita | Dinner: Paneer, Dal Fry, Naan, Gulab Jamun"
+    },
+    "collegeDistances": [
+      { "name": "GL Bajaj Institute of Technology", "distance": "0.8 km", "time": "8 mins walk" },
+      { "name": "IIMT College of Engineering", "distance": "0.6 km", "time": "6 mins walk" },
+      { "name": "Sharda University", "distance": "1.9 km", "time": "5 mins drive" }
+    ],
+    "rules": [
+      "Gates close strictly at 10:30 PM. Warden authorization required for any late entries.",
+      "No male guests/friends are permitted inside student rooms.",
+      "Weekend checkouts require biometric register log entries and parent confirmation.",
+      "Housekeeping staff cleans rooms daily between 10:00 AM - 1:00 PM.",
+      "Any room issues/repairs must be logged in the warden register for same-day resolution."
+    ],
+    "rooms": [
+      { "type": "Single Sharing", "available": true },
+      { "type": "Double Sharing", "available": true }
+    ],
+    "coordinates": { "lat": 28.4725, "lng": 77.5090 },
+    "featured": false,
+    "gender": "female"
+  }
+]

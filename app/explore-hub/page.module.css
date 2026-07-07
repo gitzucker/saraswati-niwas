@@ -1,0 +1,913 @@
+.pageContainer {
+  padding: 120px 0 80px 0;
+  background-color: #F0F2F9;
+  min-height: 100vh;
+}
+
+.hubHeader {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 50px auto;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  color: #1A1A2E;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* 3D Dashboard Panel Frame */
+.dashboard {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
+  background: #ffffff;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.05),
+    0 5px 15px rgba(0, 0, 0, 0.02),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  min-height: 650px;
+  position: relative;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+  background: linear-gradient(180deg, #1A1A2E 0%, #111122 100%);
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 5px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.sidebarTitle {
+  color: rgba(255, 255, 255, 0.35);
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+.tabBtn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.tabBtn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateX(4px);
+}
+
+.activeTabBtn {
+  color: #ffffff;
+  background: var(--gradient-primary);
+  box-shadow: 
+    0 10px 20px rgba(108, 99, 255, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Main Content Area */
+.contentArea {
+  padding: 48px;
+  background: linear-gradient(135deg, #ffffff 0%, #FBFBFF 100%);
+  position: relative;
+  text-align: left;
+}
+
+.tabHeader {
+  border-bottom: 2px solid #F0F2F9;
+  padding-bottom: 24px;
+  margin-bottom: 40px;
+}
+
+.tabTitle {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #1A1A2E;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.tabDescription {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* 3D Tilt Card Base */
+.tiltCard {
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  transform: perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transform-style: preserve-3d;
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.05),
+    0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.tiltCard:hover {
+  box-shadow: 
+    0 20px 40px rgba(108, 99, 255, 0.08),
+    0 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* 1. Rent Calculator & Isometric 3D Room Builder */
+.calcGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.formGroup label {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #1A1A2E;
+}
+
+.select, .input {
+  width: 100%;
+  height: 52px;
+  border-radius: 12px;
+  border: 2px solid #E2E8F0;
+  padding: 0 18px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  outline: none;
+  background: #ffffff;
+  transition: all 0.3s;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.select:focus, .input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.1);
+}
+
+.checkboxGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #E2E8F0;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.checkboxLabel input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.checkboxLabelChecked {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(108, 99, 255, 0.12);
+}
+
+/* 🏠 Isometric 3D Room Viewer */
+.roomCard {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 24px;
+  border: 1px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.roomViewer {
+  height: 240px;
+  width: 100%;
+  background: radial-gradient(circle, #EAECEF 0%, #DCE0E5 100%);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomStage {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  transform: rotateX(60deg) rotateZ(-45deg);
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Isometric Floor Grid */
+.roomFloor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #EAEAEF;
+  border: 4px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.5) 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+/* Isometric Walls */
+.wallLeft, .wallRight {
+  position: absolute;
+  background: #D5D9E0;
+  transform-style: preserve-3d;
+  border: 2px solid #ffffff;
+}
+
+.wallLeft {
+  width: 10px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: rotateY(90deg) translateZ(-5px);
+  transform-origin: left center;
+  background: linear-gradient(to right, #C6CBD4, #D5D9E0);
+}
+
+.wallRight {
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  transform: rotateX(-90deg) translateZ(-5px);
+  transform-origin: center top;
+  background: linear-gradient(to bottom, #C6CBD4, #D5D9E0);
+}
+
+/* 3D Beds in the Room */
+.roomBed {
+  position: absolute;
+  width: 48px;
+  height: 70px;
+  background: #6C63FF;
+  border-radius: 4px;
+  transform: translateZ(10px);
+  transform-style: preserve-3d;
+  box-shadow: -8px 8px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  transition: all 0.5s ease;
+}
+
+.pillow {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  width: 36px;
+  height: 14px;
+  background: #ffffff;
+  border-radius: 3px;
+  transform: translateZ(3px);
+}
+
+.bed1 { bottom: 12px; left: 12px; }
+.bed2 { top: 12px; right: 12px; }
+.bed3 { bottom: 12px; right: 12px; }
+
+/* 3D Wall AC unit */
+.acUnit {
+  position: absolute;
+  top: 8px;
+  left: 45px;
+  width: 50px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #BCC0C5;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.acBreeze {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  width: 30px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(78, 205, 196, 0.25), transparent);
+  border-radius: 0 0 12px 12px;
+  animation: acFlow 1.2s infinite ease-in-out;
+  transform-origin: top center;
+}
+
+@keyframes acFlow {
+  0%, 100% { transform: scaleY(0.8) skewX(2deg); opacity: 0.4; }
+  50% { transform: scaleY(1.2) skewX(-2deg); opacity: 0.8; }
+}
+
+/* 3D Gym Weights */
+.weightIcon {
+  position: absolute;
+  bottom: 24px;
+  left: 80px;
+  font-size: 1.4rem;
+  filter: drop-shadow(-4px 4px 4px rgba(0,0,0,0.15));
+  animation: floatIcon 3s infinite ease-in-out;
+}
+
+/* 3D Wifi waves */
+.wifiWaves {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 1.4rem;
+  filter: drop-shadow(-4px 4px 4px rgba(108,99,255,0.25));
+  animation: pulseWifi 1.8s infinite ease-in-out;
+}
+
+@keyframes pulseWifi {
+  0% { transform: scale(0.9); opacity: 0.6; filter: drop-shadow(0 0 2px rgba(108,99,255,0.2)); }
+  50% { transform: scale(1.1); opacity: 1; filter: drop-shadow(0 0 8px rgba(108,99,255,0.6)); }
+  100% { transform: scale(0.9); opacity: 0.6; filter: drop-shadow(0 0 2px rgba(108,99,255,0.2)); }
+}
+
+@keyframes floatIcon {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Rent summary display */
+.calcSummary {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.calcSummaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.calcDivider {
+  height: 2px;
+  background: #F0F2F9;
+  margin: 18px 0;
+}
+
+.totalRentRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalRentRow span {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 850;
+  color: #1A1A2E;
+}
+
+.totalRentValue {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
+/* 2. Commute Finder Road Timeline */
+.commuteCard {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 24px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-md);
+  margin-top: 36px;
+}
+
+.commuteTitle {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #1A1A2E;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 3D Road Timelines */
+.roadTimeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  padding-left: 36px;
+}
+
+.roadTimeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 6px;
+  height: 100%;
+  background: repeating-linear-gradient(to bottom, #1A1A2E 0, #1A1A2E 10px, transparent 10px, transparent 20px);
+  border-radius: 4px;
+}
+
+.roadNode {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--surface-alt);
+  padding: 16px 20px;
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+  transition: transform 0.25s;
+}
+
+.roadNode:hover {
+  transform: translateX(4px);
+  background: #ffffff;
+  border-color: var(--primary-light);
+  box-shadow: 0 8px 16px rgba(108,99,255,0.06);
+}
+
+.roadNode::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 3px rgba(108,99,255,0.25);
+  z-index: 2;
+}
+
+.roadVehicle {
+  font-size: 1.6rem;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(-3px 3px 2px rgba(0,0,0,0.1));
+}
+
+.roadDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.roadDetails strong {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: #1A1A2E;
+  font-weight: 850;
+}
+
+.roadDetails span {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* 3. Compare Stays Table */
+.compareTableWrapper {
+  overflow-x: auto;
+  border-radius: 24px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-md);
+}
+
+.compareTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: #ffffff;
+}
+
+.compareTable th, .compareTable td {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border-light);
+  text-align: left;
+}
+
+.compareTable th {
+  background: #1A1A2E;
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-weight: 850;
+}
+
+.compareTable tr:last-child td {
+  border-bottom: none;
+}
+
+.tablePropName {
+  font-weight: 800;
+  color: #1A1A2E;
+  background: #F8F9FE;
+  width: 200px;
+}
+
+.starRating {
+  color: #E5C158;
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+}
+
+/* 4. Calendarvisit slots */
+.calendarContainer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  border: 1px solid var(--border-light);
+  padding: 20px;
+  border-radius: 20px;
+  background: #F8F9FE;
+}
+
+/* 3D Keycap Dates */
+.calDay {
+  aspect-ratio: 1;
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #1A1A2E;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 0 #E2E8F0;
+  border: 1px solid #E2E8F0;
+  transform: translateY(-2px);
+}
+
+.calDay:active {
+  transform: translateY(2px);
+  box-shadow: 0 0px 0 transparent;
+}
+
+.calDayActive {
+  background: var(--gradient-primary) !important;
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 4px 0 #5146e6 !important;
+}
+
+.calDayActive:active {
+  transform: translateY(2px);
+  box-shadow: 0 0px 0 transparent !important;
+}
+
+.calDayDisabled {
+  background: transparent;
+  color: #CBD5E1;
+  box-shadow: none;
+  border-color: transparent;
+  cursor: not-allowed;
+  pointer-events: none;
+  transform: none;
+}
+
+.timeSlotsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.timeBtn {
+  height: 48px;
+  border-radius: 10px;
+  border: 2px solid #E2E8F0;
+  background: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.timeBtnActive {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(108,99,255,0.08);
+}
+
+/* 5. Shuttle Schedule */
+.shuttleTimetable {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shuttleRouteRow {
+  background: #ffffff;
+  padding: 24px 32px;
+  border-radius: 20px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  grid-template-columns: 1fr 200px 150px;
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.2s;
+}
+
+.shuttleRouteRow:hover {
+  transform: scale(1.01);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-light);
+}
+
+.routeInfo h4 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 850;
+  color: #1A1A2E;
+  margin-bottom: 6px;
+}
+
+.routeTimings {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.routeFrequency {
+  background: var(--surface-alt);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+  text-align: center;
+}
+
+/* 6. Refer & Earn 3D Scratch Coupon */
+.referContainer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+}
+
+/* 3D Ticket Coupon */
+.promoCodeCard {
+  background: linear-gradient(135deg, #1A1A2E 0%, #111122 100%);
+  border-radius: 24px;
+  padding: 40px 32px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.2),
+    0 5px 15px rgba(108, 99, 255, 0.1);
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Punched edges of ticket */
+.promoCodeCard::before, .promoCodeCard::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ffffff; /* matches the content area background */
+  z-index: 10;
+}
+
+.promoCodeCard::before { left: -12px; }
+.promoCodeCard::after { right: -12px; }
+
+.promoCodeCard h4 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, #E5C158 0%, #B88E2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 3D Scratch Reveal box */
+.scratchCard {
+  width: 100%;
+  background: #252538;
+  border: 2px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.scratchOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1A1A2E;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  transition: transform 0.5s ease-out;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.scratchCardRevealed .scratchOverlay {
+  transform: translateY(-100%);
+}
+
+.codeBox {
+  font-family: var(--font-logo), monospace;
+  font-size: 1.6rem;
+  font-weight: 850;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 10px rgba(108,99,255,0.4);
+}
+
+/* Success Modal */
+.successModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 48px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 25px 60px rgba(26, 26, 46, 0.2);
+  border: 1px solid var(--border-light);
+  z-index: 1000;
+  text-align: center;
+  animation: modalPop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(26, 26, 46, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+}
+
+@keyframes modalPop {
+  from { transform: translate(-50%, -45%) scale(0.92); opacity: 0; }
+  to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+@media (max-width: 1024px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .sidebarTitle {
+    display: none;
+  }
+  .tabBtn {
+    width: auto;
+    white-space: nowrap;
+  }
+  .promoCodeCard::before, .promoCodeCard::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentArea {
+    padding: 28px;
+  }
+  .calcGrid, .calendarContainer, .referContainer {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .checkboxGroup {
+    grid-template-columns: 1fr;
+  }
+  .shuttleRouteRow {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .commuteGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

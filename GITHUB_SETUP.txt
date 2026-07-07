@@ -1,0 +1,26 @@
+SARASWATI NIWAS - GITHUB SETUP GUIDE
+=====================================
+
+Your complete project code is located in this directory. It contains a '.gitignore' file which prevents heavy build files (like node_modules and .next) from being uploaded to GitHub.
+
+To upload this project to your GitHub account, open a terminal (PowerShell, Command Prompt, or Git Bash) inside this folder and run the following commands:
+
+1. Initialize Git in this folder (if not already done):
+   git init
+
+2. Add all project files:
+   git add .
+
+3. Commit the files:
+   git commit -m "Initial commit of Saraswati Niwas website with 3D Explore Hub and MapLibre GL locator"
+
+4. Create a new, blank repository on github.com (do NOT initialize it with a README, license, or gitignore on the website — keep it empty).
+
+5. Copy your GitHub repository URL (e.g., https://github.com/your-username/saraswati-niwas.git) and link it to this folder:
+   git remote add origin https://github.com/your-username/saraswati-niwas.git
+
+6. Rename branch to main:
+   git branch -M main
+
+7. Push to GitHub:
+   git push -u origin main

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "t1",
+    "name": "Aarav Sharma",
+    "hostel": "Knowledge Hub",
+    "rating": 5,
+    "review": "Staying at Saraswati Niwas has been a fantastic experience. The high-speed internet is perfect for my exam prep, and the food feels just like home. The security staff is very polite and always on alert.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aarav",
+    "occupation": "Student, GL Bajaj"
+  },
+  {
+    "id": "t2",
+    "name": "Ananya Patel",
+    "hostel": "Alpha Residency",
+    "rating": 5,
+    "review": "The girls' security and management here are top-notch. It is close to the metro station, which is super convenient for my daily commute. The rooms are clean, spacious, and very modern.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ananya",
+    "occupation": "Working Professional, NIIT"
+  },
+  {
+    "id": "t3",
+    "name": "Rahul Verma",
+    "hostel": "IIMT Campus View",
+    "rating": 4.5,
+    "review": "As an IIMT student, the location couldn't be better. The gym facilities are excellent, and the dining area is a great place to hang out with friends. Worth every rupee!",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul",
+    "occupation": "Student, IIMT"
+  },
+  {
+    "id": "t4",
+    "name": "Sarah Miller",
+    "hostel": "Pari Chowk Gateway",
+    "rating": 5,
+    "review": "I stayed here during my backpacking tour of North India. The staff was incredibly welcoming, the bed was comfortable, and it was so easy to meet other students. Highly recommend!",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    "occupation": "Backpacker & Tourist"
+  }
+]

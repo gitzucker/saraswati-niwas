@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wifi",
+    "name": "High-Speed WiFi",
+    "icon": "Wifi",
+    "description": "200 Mbps unlimited optical fiber internet in all rooms and common areas."
+  },
+  {
+    "id": "ac",
+    "name": "Air Conditioning",
+    "icon": "Wind",
+    "description": "Energy-efficient split ACs in all rooms with remote control."
+  },
+  {
+    "id": "food",
+    "name": "Hygienic Meals",
+    "icon": "Utensils",
+    "description": "4 delicious veg/non-veg meals prepared daily in our clean kitchens."
+  },
+  {
+    "id": "security",
+    "name": "3-Tier Security",
+    "icon": "ShieldAlert",
+    "description": "24/7 security guards, CCTV cameras, and biometric entry system."
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry Service",
+    "icon": "Shirt",
+    "description": "Professional weekly laundry and ironing service included in package."
+  },
+  {
+    "id": "power",
+    "name": "Power Backup",
+    "icon": "Zap",
+    "description": "Round-the-clock power backup via heavy-duty generators."
+  },
+  {
+    "id": "gym",
+    "name": "Fitness Gym",
+    "icon": "Dumbbell",
+    "description": "Fully-equipped in-house fitness gymnasium with cardio and weights."
+  },
+  {
+    "id": "study",
+    "name": "Quiet Study Room",
+    "icon": "BookOpen",
+    "description": "Silent, air-conditioned study hall with individual lighting and plugs."
+  }
+]

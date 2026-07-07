@@ -1,66 +1,46 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import HeroBanner from "./components/home/HeroBanner";
+import AccommodationTypes from "./components/home/AccommodationTypes";
+import FeaturedProperties from "./components/home/FeaturedProperties";
+import InteractiveMapSection from "./components/home/InteractiveMapSection";
+import HowItWorks from "./components/home/HowItWorks";
+import AmenitiesShowcase from "./components/home/AmenitiesShowcase";
+import StatsCounter from "./components/home/StatsCounter";
+import CityExplorer from "./components/home/CityExplorer";
+import Testimonials from "./components/home/Testimonials";
+import CTABanner from "./components/home/CTABanner";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      {/* 1. Hero banner with Search + Spline */}
+      <HeroBanner />
+
+      {/* 2. Stats bar with animated counting */}
+      <StatsCounter />
+
+      {/* 3. Grid of general amenities */}
+      <AmenitiesShowcase />
+
+      {/* 4. Stay Categories (Boys, Girls) */}
+      <AccommodationTypes />
+
+      {/* 5. Horizontal grid of featured properties with Map link */}
+      <FeaturedProperties />
+
+      {/* 5.5. Map Locator Section */}
+      <InteractiveMapSection />
+
+      {/* 6. How it works timeline */}
+      <HowItWorks />
+
+      {/* 7. Grid of Greater Noida cities/localities */}
+      <CityExplorer />
+
+      {/* 8. Slide testimonials */}
+      <Testimonials />
+
+      {/* 9. Booking CTA form (Tally.so) */}
+      <CTABanner />
+    </>
   );
 }

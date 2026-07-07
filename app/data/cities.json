@@ -1,0 +1,34 @@
+[
+  {
+    "id": "kp2",
+    "name": "Knowledge Park 2",
+    "slug": "knowledge-park-2",
+    "propertyCount": 12,
+    "image": "/images/cities/knowledge-park.png",
+    "description": "Educational hub of Greater Noida, home to top institutes like Galgotias, Sharda, and GL Bajaj."
+  },
+  {
+    "id": "parichowk",
+    "name": "Pari Chowk",
+    "slug": "pari-chowk",
+    "propertyCount": 8,
+    "image": "/images/hero/hero-hostel.png",
+    "description": "The central transit point of Greater Noida, offering unmatched connectivity to Noida and Delhi."
+  },
+  {
+    "id": "alpha2",
+    "name": "Alpha 2",
+    "slug": "alpha-2",
+    "propertyCount": 6,
+    "image": "/images/properties/common-area.png",
+    "description": "Prime residential area with markets, metro connectivity, and cozy co-living options."
+  },
+  {
+    "id": "iimt",
+    "name": "Near IIMT",
+    "slug": "near-iimt",
+    "propertyCount": 5,
+    "image": "/images/properties/room-interior.png",
+    "description": "Student-centric locality with active markets, street food stalls, and affordable stay options."
+  }
+]
