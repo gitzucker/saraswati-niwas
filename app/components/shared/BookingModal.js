@@ -39,7 +39,16 @@ export default function BookingModal({
         
       if (error) throw error;
       
-      alert(`Your request for a ${option === "visit" ? "Hostel Visit" : "Call Back"} has been received. Our team will contact you shortly!`);
+      // Format the WhatsApp message
+      const adminPhone = "919211934081";
+      const bookingType = option === "visit" ? "Hostel Visit" : "Call Back Request";
+      const property = propertyName || "Saraswati Niwas";
+      const message = `*New ${bookingType}*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email}\n*Property:* ${property}\n\nI would like to ${option === "visit" ? "schedule a visit" : "request a call back"}. Please contact me.`;
+      const whatsappUrl = `https://wa.me/${adminPhone}?text=${encodeURIComponent(message)}`;
+
+      // Open WhatsApp in a new tab
+      window.open(whatsappUrl, '_blank');
+      
       // Reset form
       setName("");
       setPhone("");
