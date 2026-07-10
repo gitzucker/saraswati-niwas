@@ -13,7 +13,7 @@ export default function AccommodationTypes() {
       title: "Boys Hostels",
       description: "Secure, structured stays near major colleges with dedicated study spaces, fitness equipment, and recreational areas.",
       badge: "Male Only",
-      image: "/images/properties/room-interior.png",
+      image: "/images/properties/double-1.jpg",
       icon: UserCheck,
       color: "blue",
       link: "/hostels?gender=male"
@@ -23,7 +23,7 @@ export default function AccommodationTypes() {
       title: "Girls Hostels",
       description: "Ultra-secure student spaces equipped with biometric gates, full-time wardens, study rooms, and robust CCTV networks.",
       badge: "Female Only",
-      image: "/images/properties/study-room.png",
+      image: "/images/properties/double-6.jpg",
       icon: Heart,
       color: "coral",
       link: "/hostels?gender=female"

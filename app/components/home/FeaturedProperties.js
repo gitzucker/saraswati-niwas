@@ -19,7 +19,7 @@ export default function FeaturedProperties() {
       reviews: 124,
       gender: "male",
       genderLabel: "Boys Only",
-      image: "/images/properties/room-interior.png",
+      image: "/images/properties/double-1.jpg",
       amenities: ["WiFi", "AC", "Laundry", "Food"]
     },
     {
@@ -31,7 +31,7 @@ export default function FeaturedProperties() {
       reviews: 142,
       gender: "female",
       genderLabel: "Girls Only",
-      image: "/images/properties/study-room.png",
+      image: "/images/properties/double-6.jpg",
       amenities: ["WiFi", "AC", "Security", "Food"]
     },
     {
@@ -43,7 +43,7 @@ export default function FeaturedProperties() {
       reviews: 92,
       gender: "male",
       genderLabel: "Boys Only",
-      image: "/images/properties/common-area.png",
+      image: "/images/properties/single-2.jpg",
       amenities: ["WiFi", "AC", "Gym", "Food"]
     }
   ];
