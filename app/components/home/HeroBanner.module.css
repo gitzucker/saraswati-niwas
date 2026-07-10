@@ -226,7 +226,7 @@
   background-size: cover;
   background-position: center;
   z-index: 0;
-  opacity: 0.35;
+  opacity: 0.75;
   animation: kenBurns 12s cubic-bezier(0.1, 0.8, 0.2, 1) forwards;
 }
 
