@@ -12,6 +12,10 @@ export default function HeroBanner() {
 
   return (
     <section className={styles.heroSection}>
+      {/* Real Building Background with Motion */}
+      <div className={styles.heroBgImage} />
+      <div className={styles.heroBgOverlay} />
+
       {/* Dynamic Background Gradients */}
       <div className={styles.bgGlowLeft} />
       <div className={styles.bgGlowRight} />
