@@ -57,7 +57,7 @@ export default function FeaturedProperties() {
               <span className={styles.tagline}>Popular Stays</span>
             </ScrollReveal>
             <ScrollReveal animation="fadeUp" delay={100}>
-              <h2 className={styles.title}>Featured Hostels in <span className="gradient-text">Greater Noida</span></h2>
+              <h2 className={styles.title}>Featured Branches in <span className="gradient-text">Greater Noida</span></h2>
             </ScrollReveal>
           </div>
           <div className={styles.headerRight}>
