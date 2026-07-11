@@ -16,9 +16,13 @@ interface GlobeInteractiveProps {
   speed?: number
 }
 
-// Saraswati Niwas Greater Noida Hostel Locations
+// Saraswati Niwas Greater Noida Hostel Locations & Global Connection Hubs
 const defaultMarkers: InteractiveMarker[] = [
-  { id: "india", location: [20.5937, 78.9629], name: "India", users: 690 }
+  { id: "india", location: [20.5937, 78.9629], name: "India", users: 690 },
+  { id: "london", location: [51.5074, -0.1278], name: "London", users: 120 },
+  { id: "newyork", location: [40.7128, -74.0060], name: "New York", users: 180 },
+  { id: "tokyo", location: [35.6762, 139.6503], name: "Tokyo", users: 150 },
+  { id: "sydney", location: [-33.8688, 151.2093], name: "Sydney", users: 90 }
 ]
 
 export function GlobeInteractive({
@@ -91,9 +95,14 @@ export function GlobeInteractive({
         baseColor: [0.2, 0.6, 0.25], // Earthy green land dots
         markerColor: [1.0, 0.3, 0.2], // Vibrant red location pin
         glowColor: [0.25, 0.55, 0.9], // Deep ocean blue atmosphere glow
-        markerElevation: 0,
         markers: markers.map((m) => ({ location: m.location, size: 0.05, id: m.id })),
-        arcs: [], arcColor: [1.0, 0.3, 0.2],
+        arcs: [
+          { start: [20.5937, 78.9629], end: [51.5074, -0.1278] }, // India to London
+          { start: [20.5937, 78.9629], end: [35.6762, 139.6503] }, // India to Tokyo
+          { start: [20.5937, 78.9629], end: [40.7128, -74.0060] }, // India to New York
+          { start: [20.5937, 78.9629], end: [-33.8688, 151.2093] } // India to Sydney
+        ],
+        arcColor: [1.0, 0.6, 0.2],
         arcWidth: 0.5, arcHeight: 0.25, opacity: 0.8,
       })
 

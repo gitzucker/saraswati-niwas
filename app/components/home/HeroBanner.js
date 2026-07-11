@@ -74,8 +74,10 @@ export default function HeroBanner() {
           <div className={styles.heroVisual}>
             <ScrollReveal animation="scaleUp" delay={300}>
               <div className={styles.splineContainer}>
+                <div className={styles.globeBase} />
+                <div className={styles.globePole} />
                 <GlobeInteractive
-                  className={styles.splineWrapper}
+                  className={`${styles.splineWrapper} ${styles.floatingGlobe}`}
                 />
               </div>
             </ScrollReveal>
