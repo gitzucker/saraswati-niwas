@@ -88,12 +88,12 @@ export function GlobeInteractive({
         width, height: width,
         phi: 1.35, theta: 0.3, dark: 0, diffuse: 1.5,
         mapSamples: 16000, mapBrightness: 10,
-        baseColor: [0.97, 0.98, 1.0], // light Lavender surface [248, 249, 254]
-        markerColor: [0.42, 0.39, 1.0], // Electric Violet [108, 99, 255]
-        glowColor: [0.31, 0.8, 0.77], // Mint/Teal glow [78, 205, 196]
+        baseColor: [0.2, 0.6, 0.25], // Earthy green land dots
+        markerColor: [1.0, 0.3, 0.2], // Vibrant red location pin
+        glowColor: [0.25, 0.55, 0.9], // Deep ocean blue atmosphere glow
         markerElevation: 0,
         markers: markers.map((m) => ({ location: m.location, size: 0.05, id: m.id })),
-        arcs: [], arcColor: [0.42, 0.39, 1.0],
+        arcs: [], arcColor: [1.0, 0.3, 0.2],
         arcWidth: 0.5, arcHeight: 0.25, opacity: 0.8,
       })
 
