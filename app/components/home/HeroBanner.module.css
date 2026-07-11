@@ -131,12 +131,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  transform: translateY(-50px);
 }
 
 .splineContainer {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 380px;
 }
 
 .splineWrapper {
@@ -204,8 +205,9 @@
   }
 
   .heroVisual {
-    max-width: 450px;
-    margin: 0 auto;
+    max-width: 320px;
+    margin: -15px auto 0 auto;
+    transform: none;
   }
 
   .tag1 {
