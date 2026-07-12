@@ -131,7 +131,11 @@ export default function Testimonials() {
         <div onClick={handleClick} style={{ cursor: "pointer" }}>
           <ContributorsWall
             title="What Our Indian Residents Say"
-            subtitle="Loved by a community of 500+ students from Greater Noida's leading universities."
+            subtitle={
+              <span style={{ fontSize: "1.05rem", fontWeight: "600", color: "#2D3748" }}>
+                Loved by a vibrant community of <span className="gradient-text" style={{ fontWeight: "800" }}>500+ students</span> from Greater Noida's leading universities.
+              </span>
+            }
             contributors={indianStudents}
             totalCount={120}
             columns={12}

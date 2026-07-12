@@ -6,6 +6,7 @@ import HowItWorks from "./components/home/HowItWorks";
 import AmenitiesShowcase from "./components/home/AmenitiesShowcase";
 import StatsCounter from "./components/home/StatsCounter";
 import CityExplorer from "./components/home/CityExplorer";
+import HostelQuotes from "./components/home/HostelQuotes";
 import Testimonials from "./components/home/Testimonials";
 import CTABanner from "./components/home/CTABanner";
 
@@ -35,6 +36,9 @@ export default function Home() {
 
       {/* 7. Grid of Greater Noida cities/localities */}
       <CityExplorer />
+
+      {/* 7.5. Inspiring Student Hostel Life Quotes */}
+      <HostelQuotes />
 
       {/* 8. Slide testimonials */}
       <Testimonials />

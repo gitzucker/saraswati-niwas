@@ -42,7 +42,7 @@ export default function AccommodationTypes() {
           </ScrollReveal>
           <ScrollReveal animation="fadeUp" delay={200}>
             <p className={styles.description}>
-              We offer specialized accommodations suited for students, working professionals, and long-term tourists visiting Greater Noida.
+              We offer <strong className={styles.highlightText}>specialized accommodations</strong> suited for <span className="gradient-text">students</span>, <span className="gradient-text">working professionals</span>, and <span className="gradient-text">long-term tourists</span> visiting Greater Noida.
             </p>
           </ScrollReveal>
         </div>

@@ -33,9 +33,15 @@
 
 .description {
   font-family: var(--font-body);
-  font-size: 1rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
+  font-size: 1.05rem;
+  font-weight: 550;
+  color: #2D3748;
+  line-height: 1.65;
+}
+
+.highlightText {
+  color: var(--primary);
+  font-weight: 750;
 }
 
 .grid {
@@ -121,9 +127,10 @@
 
 .card p {
   font-family: var(--font-body);
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: #4A5568;
+  line-height: 1.65;
   margin-bottom: 24px;
   flex: 1;
 }

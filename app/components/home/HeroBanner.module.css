@@ -77,11 +77,17 @@
 
 .subheadline {
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.25vw, 1.2rem);
-  color: var(--text-secondary);
-  line-height: 1.6;
+  font-size: clamp(1.05rem, 1.3vw, 1.25rem);
+  color: #2D3748;
+  font-weight: 550;
+  line-height: 1.65;
   margin-bottom: 36px;
   max-width: 580px;
+}
+
+.highlightText {
+  color: var(--primary);
+  font-weight: 750;
 }
 
 .searchReveal {
