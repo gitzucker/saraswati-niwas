@@ -25,19 +25,38 @@ export default function BookingModal({
     setIsSubmitting(true);
     
     try {
-      const { error } = await supabase
-        .from('bookings')
-        .insert([
-          { 
-            name, 
-            phone, 
-            email, 
-            intent: option, 
-            property_name: propertyName || "Saraswati Niwas" 
+      // Safely try inserting to Supabase if it's configured and not using placeholders
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+      const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+      const isConfigured = 
+        supabaseUrl && 
+        supabaseUrl !== "https://placeholder.supabase.co" && 
+        supabaseAnonKey && 
+        supabaseAnonKey !== "placeholderAnonKey";
+
+      if (isConfigured) {
+        try {
+          const { error } = await supabase
+            .from('bookings')
+            .insert([
+              { 
+                name, 
+                phone, 
+                email, 
+                intent: option, 
+                property_name: propertyName || "Saraswati Niwas" 
+              }
+            ]);
+            
+          if (error) {
+            console.error("Supabase error (non-blocking):", error);
           }
-        ]);
-        
-      if (error) throw error;
+        } catch (dbError) {
+          console.error("Database connection failed (non-blocking):", dbError);
+        }
+      } else {
+        console.warn("Supabase is not configured (using placeholder). Skipping database write.");
+      }
       
       // Format the WhatsApp message
       const adminPhone = "919211934081";
@@ -56,7 +75,7 @@ export default function BookingModal({
       onClose();
     } catch (error) {
       console.error("Error submitting booking:", error);
-      alert("There was an error submitting your request. Please try again.");
+      alert("There was an error redirecting to WhatsApp. Please try again or contact support.");
     } finally {
       setIsSubmitting(false);
     }
