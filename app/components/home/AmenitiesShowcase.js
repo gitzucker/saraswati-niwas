@@ -12,7 +12,12 @@ import {
   Dumbbell,
   BookOpen,
   Tv,
-  Cctv
+  Cctv,
+  Library,
+  Users,
+  Trees,
+  ParkingCircle,
+  HeartHandshake
 } from "lucide-react";
 
 export default function AmenitiesShowcase() {
@@ -26,7 +31,12 @@ export default function AmenitiesShowcase() {
     { id: 7, name: "In-House Gym", icon: Dumbbell, desc: "Equipped weights & cardio stations." },
     { id: 8, name: "Quiet Study Rooms", icon: BookOpen, desc: "Soundproof spaces with study desks." },
     { id: 9, name: "Recreation Hub", icon: Tv, desc: "Pool table, TV, board games and lounge." },
-    { id: 10, name: "CCTV Surveillance", icon: Cctv, desc: "Continuous monitoring for student safety." }
+    { id: 10, name: "CCTV Surveillance", icon: Cctv, desc: "Continuous monitoring for student safety." },
+    { id: 11, name: "Reference Library", icon: Library, desc: "A quiet space stocked with academic books and journals." },
+    { id: 12, name: "Parents Lounge", icon: Users, desc: "A cozy visiting area for parents and family guests." },
+    { id: 13, name: "Outdoor Playground", icon: Trees, desc: "Green open spaces for sports, walks, and fresh air." },
+    { id: 14, name: "Secure Parking", icon: ParkingCircle, desc: "Dedicated parking zones for student vehicles." },
+    { id: 15, name: "Counselling Room", icon: HeartHandshake, desc: "A private space for mental wellness and guidance." }
   ];
 
   return (
