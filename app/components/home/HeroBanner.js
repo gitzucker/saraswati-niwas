@@ -33,7 +33,7 @@ export default function HeroBanner() {
 
             <ScrollReveal animation="fadeUp" delay={150}>
               <h1 className={styles.headline}>
-                Enjoy full-utility stays for <br />
+                Enjoy <span className="gradient-text">full-utility</span> stays for <br />
                 <span className="gradient-text">smart living</span> in Greater Noida.
               </h1>
             </ScrollReveal>
