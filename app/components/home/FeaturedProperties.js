@@ -14,7 +14,7 @@ export default function FeaturedProperties() {
       id: "prop-b1",
       slug: "saraswati-niwas-b1-branch",
       name: "Saraswati Niwas - B1 Branch",
-      location: "Alpha 2, Greater Noida",
+      location: "Knowledge Park 2, Greater Noida",
       rating: 4.8,
       reviews: 124,
       gender: "male",

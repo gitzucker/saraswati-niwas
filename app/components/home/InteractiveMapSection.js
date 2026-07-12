@@ -14,11 +14,11 @@ const PROPERTIES = [
     slug: "saraswati-niwas-b1-branch",
     name: "Saraswati Niwas - B1 Branch",
     type: "boys",
-    location: "Sector Alpha 2, Greater Noida",
+    location: "Knowledge Park 2, Greater Noida",
     rating: 4.8,
     gender: "Boys Only",
-    tagline: "Opposite Alpha 2 Shopping Complex & Metro",
-    description: "Fully furnished boys' hostel located in Sector Alpha 2. Featuring easy commute links, daily nutritious catering, and high-security student stays.",
+    tagline: "Opposite Knowledge Park 2 Metro Station",
+    description: "Fully furnished boys' hostel located in Knowledge Park 2. Featuring easy commute links, daily nutritious catering, and high-security student stays.",
     amenities: ["WiFi", "AC", "Laundry", "4 Meals Mess", "Biometric Access"],
     coordinates: { top: 40, left: 35 },
     image: "/images/properties/room-interior.png"
@@ -149,7 +149,7 @@ export default function InteractiveMapSection() {
               {/* Fake grid road lines representation */}
               <div className={`${styles.roadLine} ${styles.roadYamuna}`} />
               <div className={`${styles.roadLine} ${styles.roadMetroLine}`} />
-              <div className={`${styles.roadLine} ${styles.roadAlpha}`} />
+              <div className={`${styles.roadLine} ${styles.roadKP2}`} />
               <div className={`${styles.roadLine} ${styles.roadKP}`} />
               
               {/* Pari Chowk intersection indicator */}

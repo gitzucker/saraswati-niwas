@@ -7,7 +7,7 @@ import './globals.css';
 export const metadata = {
   title: 'Saraswati Niwas — Your Home Away From Home',
   description:
-    'Premium hostels in Greater Noida for students, professionals, and travelers. Affordable stays near IIMT, Pari Chowk, Knowledge Park 2 & Alpha 2 with modern amenities and vibrant community.',
+    'Premium hostels in Greater Noida for students, professionals, and travelers. Affordable stays near IIMT, Pari Chowk, Knowledge Park 2 & Knowledge Park 3 with modern amenities and vibrant community.',
   keywords: [
     'hostel Greater Noida',
     'PG Greater Noida',
@@ -16,7 +16,7 @@ export const metadata = {
     'affordable hostel near IIMT',
     'hostel near Pari Chowk',
     'Knowledge Park 2 hostel',
-    'Alpha 2 hostel',
+    'Knowledge Park 3 hostel',
   ],
   authors: [{ name: 'Saraswati Niwas' }],
   openGraph: {

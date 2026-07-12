@@ -21,7 +21,7 @@ export default function GoogleMapWrapper({
 
   // Standard Greater Noida markers if empty
   const defaultMarkers = markers.length > 0 ? markers : [
-    { id: 1, name: "Saraswati Niwas - Alpha Residency", lat: 28.4650, lng: 77.5000, desc: "Alpha 2, near Metro Station" },
+    { id: 1, name: "Saraswati Niwas - Knowledge Park 2 Residency", lat: 28.4650, lng: 77.5000, desc: "Knowledge Park 2, near Metro Station" },
     { id: 2, name: "Saraswati Niwas - Knowledge Hub (Girls)", lat: 28.4700, lng: 77.5100, desc: "Knowledge Park 2, near GL Bajaj" },
     { id: 3, name: "Saraswati Niwas - IIMT Campus View", lat: 28.4744, lng: 77.5040, desc: "Near IIMT College" },
     { id: 4, name: "Saraswati Niwas - Pari Chowk Gateway", lat: 28.4595, lng: 77.5070, desc: "Near Pari Chowk intersection" }

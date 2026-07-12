@@ -23,7 +23,7 @@ const QUICK_LINKS = [
 ];
 
 const LOCATIONS = [
-  { label: 'Sector Alpha 2', href: '/hostels?location=alpha-2' },
+  { label: 'Knowledge Park II', href: '/hostels?location=knowledge-park-2' },
   { label: 'Knowledge Park III', href: '/hostels?location=knowledge-park-3' },
   { label: 'Near GL Bajaj & KCC', href: '/hostels?location=knowledge-park-3' },
   { label: 'Sector Beta 1', href: '/hostels?location=beta-1' },

@@ -16,9 +16,9 @@ export default function CityExplorer() {
       image: "/images/cities/knowledge-park.png"
     },
     {
-      id: "alpha2",
-      name: "Alpha 2",
-      slug: "alpha-2",
+      id: "kp2",
+      name: "Knowledge Park 2",
+      slug: "knowledge-park-2",
       beds: "100+ Beds",
       image: "/images/properties/common-area.png"
     }

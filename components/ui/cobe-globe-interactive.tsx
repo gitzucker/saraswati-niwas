@@ -215,8 +215,8 @@ export function GlobeInteractive({
               <a href="/hostels?location=Knowledge%20Park%202" style={{ color: "#4ECDC4", textDecoration: "none", fontSize: "0.65rem", fontWeight: 700, display: "flex", alignItems: "center", gap: "6px", transition: "transform 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.transform = "translateX(2px)"} onMouseLeave={(e) => e.currentTarget.style.transform = "none"}>
                 <span>📍</span> Knowledge Park 2
               </a>
-              <a href="/hostels?location=Alpha%202" style={{ color: "#4ECDC4", textDecoration: "none", fontSize: "0.65rem", fontWeight: 700, display: "flex", alignItems: "center", gap: "6px", transition: "transform 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.transform = "translateX(2px)"} onMouseLeave={(e) => e.currentTarget.style.transform = "none"}>
-                <span>📍</span> Alpha 2
+              <a href="/hostels?location=Knowledge%20Park%203" style={{ color: "#4ECDC4", textDecoration: "none", fontSize: "0.65rem", fontWeight: 700, display: "flex", alignItems: "center", gap: "6px", transition: "transform 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.transform = "translateX(2px)"} onMouseLeave={(e) => e.currentTarget.style.transform = "none"}>
+                <span>📍</span> Knowledge Park 3
               </a>
             </div>
           )}

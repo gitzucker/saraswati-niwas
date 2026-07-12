@@ -66,9 +66,9 @@ const CAMPUS_COMMUTE_DATA = {
 const PROPERTIES_COMPARE_DATA = [
   {
     name: "B1 Branch",
-    locality: "Alpha 2",
+    locality: "Knowledge Park 2",
     occupancy: "Single, Double",
-    metro: "Alpha 1 Metro (0.3 km)",
+    metro: "KP II Metro (0.3 km)",
     rating: 4.8,
     amenities: ["AC/Non-AC", "High-speed Wi-Fi", "Laundry Setup", "4 Meals Mess", "Biometrics"]
   },
@@ -136,7 +136,7 @@ const SHUTTLE_SCHEDULES = [
   },
   {
     route: "Route D (Late Evening Return)",
-    stops: "Knowledge Park Colleges → Pari Chowk → Alpha 2 Branches",
+    stops: "Knowledge Park Colleges → Pari Chowk → Knowledge Park 2 Branches",
     timings: "06:30 PM, 07:30 PM",
     frequency: "Daily"
   }
@@ -480,7 +480,7 @@ export default function ExploreHub() {
                         className={styles.select}
                       >
                         <option value="kp2">Saraswati Niwas - Knowledge Park 2 (Near Sharda/GL Bajaj)</option>
-                        <option value="alpha2">Saraswati Niwas - Alpha 2</option>
+                        <option value="kp3">Saraswati Niwas - Knowledge Park 3 (B10/B16/B17/AR1/AR2)</option>
                         <option value="iimt">Saraswati Niwas - Near IIMT</option>
                         <option value="parichowk">Saraswati Niwas - Pari Chowk</option>
                       </select>

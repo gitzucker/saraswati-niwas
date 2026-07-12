@@ -16,12 +16,12 @@
     "description": "The central transit point of Greater Noida, offering unmatched connectivity to Noida and Delhi."
   },
   {
-    "id": "alpha2",
-    "name": "Alpha 2",
-    "slug": "alpha-2",
-    "propertyCount": 6,
+    "id": "kp3",
+    "name": "Knowledge Park 3",
+    "slug": "knowledge-park-3",
+    "propertyCount": 14,
     "image": "/images/properties/common-area.png",
-    "description": "Prime residential area with markets, metro connectivity, and cozy co-living options."
+    "description": "Hub of premium co-living branches (B10, B16, B17 Girls, AR1, AR2) near colleges and corporate hubs."
   },
   {
     "id": "iimt",

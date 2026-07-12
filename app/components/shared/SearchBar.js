@@ -35,7 +35,7 @@ export default function SearchBar({ compact = false }) {
           <select value={area} onChange={(e) => setArea(e.target.value)}>
             <option value="">All Areas (Greater Noida)</option>
             <option value="Knowledge Park 3">Knowledge Park 3</option>
-            <option value="Alpha 2">Alpha 2</option>
+            <option value="Knowledge Park 2">Knowledge Park 2</option>
           </select>
         </div>
       </div>

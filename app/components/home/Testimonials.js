@@ -17,7 +17,7 @@ const indianStudents = [
     username: "Ananya Patel",
     avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop",
     college: "Sharda University",
-    location: "Alpha 2",
+    location: "Knowledge Park 2",
     rating: 5,
     feedback: "The girls' security and management here are top-notch. It is close to the metro station, which is super convenient for my daily commute. The rooms are clean, spacious, and very modern."
   },
@@ -57,7 +57,7 @@ const indianStudents = [
     username: "Vikram Malhotra",
     avatarUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop",
     college: "GL Bajaj Institute",
-    location: "Alpha 2",
+    location: "Knowledge Park 3",
     rating: 5,
     feedback: "Perfect stay for students. The staff takes care of housekeeping regularly. We get active recreation rooms with pool table, TT, and board games."
   },
@@ -81,7 +81,7 @@ const indianStudents = [
     username: "Diya Chatterjee",
     avatarUrl: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop",
     college: "Gautam Buddha University",
-    location: "Alpha 2",
+    location: "Knowledge Park 2",
     rating: 5,
     feedback: "Best value-for-money hostel in Pari Chowk area. The location is very peaceful, and the library/study space has a really positive study atmosphere."
   },
