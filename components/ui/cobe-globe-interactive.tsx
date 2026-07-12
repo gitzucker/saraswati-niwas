@@ -97,10 +97,10 @@ export function GlobeInteractive({
         glowColor: [0.25, 0.55, 0.9], // Deep ocean blue atmosphere glow
         markers: markers.map((m) => ({ location: m.location, size: 0.05, id: m.id })),
         arcs: [
-          { start: [20.5937, 78.9629], end: [51.5074, -0.1278] }, // India to London
-          { start: [20.5937, 78.9629], end: [35.6762, 139.6503] }, // India to Tokyo
-          { start: [20.5937, 78.9629], end: [40.7128, -74.0060] }, // India to New York
-          { start: [20.5937, 78.9629], end: [-33.8688, 151.2093] } // India to Sydney
+          { from: [20.5937, 78.9629], to: [51.5074, -0.1278] }, // India to London
+          { from: [20.5937, 78.9629], to: [35.6762, 139.6503] }, // India to Tokyo
+          { from: [20.5937, 78.9629], to: [40.7128, -74.0060] }, // India to New York
+          { from: [20.5937, 78.9629], to: [-33.8688, 151.2093] } // India to Sydney
         ],
         arcColor: [1.0, 0.6, 0.2],
         arcWidth: 0.5, arcHeight: 0.25, opacity: 0.8,
