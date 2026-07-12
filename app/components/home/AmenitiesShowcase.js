@@ -38,7 +38,7 @@ export default function AmenitiesShowcase() {
             <span className={styles.tagline}>Next-Gen Facilities</span>
           </ScrollReveal>
           <ScrollReveal animation="fadeUp" delay={100}>
-            <h2 className={styles.title}>All-Inclusive <span className="gradient-text">Premium Amenities</span></h2>
+            <h2 className={styles.title}>All-Inclusive <span className="gradient-text">Signature Amenities</span></h2>
           </ScrollReveal>
           <ScrollReveal animation="fadeUp" delay={200}>
             <p className={styles.description}>

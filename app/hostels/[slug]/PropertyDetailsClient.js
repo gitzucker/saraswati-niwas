@@ -211,7 +211,7 @@ export default function PropertyDetailsClient({ property }) {
                       <li key={idx}>✓ {facility}</li>
                     )) : (
                       <>
-                        <li>✓ Fully furnished rooms with premium study table, wardrobe, and ergonomic chair setup.</li>
+                        <li>✓ Fully furnished rooms with high-grade study table, wardrobe, and ergonomic chair setup.</li>
                         <li>✓ 200 Mbps unlimited optical-fiber Wi-Fi network access.</li>
                         <li>✓ Geyser and continuous hot water supply in all washrooms.</li>
                         <li>✓ Daily professional housekeeping and weekly room deep sanitation.</li>

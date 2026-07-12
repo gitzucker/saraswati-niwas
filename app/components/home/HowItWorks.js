@@ -45,7 +45,7 @@ export default function HowItWorks() {
           </ScrollReveal>
           <ScrollReveal animation="fadeUp" delay={200}>
             <p className={styles.description}>
-              Reserve your premium space at Saraswati Niwas in 3 simple steps without any third-party broker fees.
+              Reserve your elevated space at Saraswati Niwas in 3 simple steps without any third-party broker fees.
             </p>
           </ScrollReveal>
         </div>

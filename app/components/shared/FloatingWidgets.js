@@ -6,12 +6,12 @@ import styles from "./FloatingWidgets.module.css";
 
 const CHAT_RESPONSES = {
   welcome: "Namaste! Welcome to Saraswati Niwas. I am your hostel guide. How can I help you today?",
-  rooms: "Saraswati Niwas offers fully furnished, premium room configurations:\n\n• Single Room: Private room with study table, closet, and full maintenance.\n• Double Sharing: Shared room with twin beds and individual lockers.\n• Triple Sharing: Spacious room shared among three students.",
+  rooms: "Saraswati Niwas offers fully furnished, signature room configurations:\n\n• Single Room: Private room with study table, closet, and full maintenance.\n• Double Sharing: Shared room with twin beds and individual lockers.\n• Triple Sharing: Spacious room shared among three students.",
   locations: "We have 6 branches in Greater Noida near major college hubs:\n1. B1 Branch (Knowledge Park 2)\n2. B10 Branch (Knowledge Park 3)\n3. B16 Branch (Knowledge Park 3)\n4. B17 Girls Branch (Knowledge Park 3, Near IIT/KCC/GL Bajaj)\n5. AR1 Branch (Knowledge Park 3)\n6. AR2 Branch (Knowledge Park 3)",
   food: "Our mess serves 4 daily meals (Breakfast, Lunch, High Tea, Dinner) prepared under strict hygiene guidelines. Vegetarian-only rotating menu includes Paneer, Chole, Dal Makhani, fresh Rotis, Rice, and weekly special desserts.",
   security: "Safety is our priority! We feature a 3-tier security system:\n• 24/7 CCTV surveillance across corridors and entries\n• Biometric fingerprint scan entry systems\n• Professional security guards and on-duty resident wardens.",
   booking: "To book a stay, click the 'Book Stay' CTA button at the top header, or fill out the enquiry form on our Contact Page. A 1-month refundable security deposit secures your reservation!",
-  default: "I want to help you! Regarding your question, Saraswati Niwas provides premium fully-managed hostels (Boys & Girls) with 200Mbps Wi-Fi, 4 daily meals, weekly laundry, 3-tier biometric security, and dedicated wardens. For direct booking or custom queries, please call/WhatsApp our warden at +91 92119 34081!"
+  default: "I want to help you! Regarding your question, Saraswati Niwas provides signature fully-managed hostels (Boys & Girls) with 200Mbps Wi-Fi, 4 daily meals, weekly laundry, 3-tier biometric security, and dedicated wardens. For direct booking or custom queries, please call/WhatsApp our warden at +91 92119 34081!"
 };
 
 const KNOWLEDGE_BASE = [
@@ -49,7 +49,7 @@ const KNOWLEDGE_BASE = [
   },
   {
     keys: ["owner", "founder", "sudan", "rishab", "bhati", "manager", "boss", "who runs"],
-    ans: "Saraswati Niwas was founded and is managed by Sudan Bhati (Founder & Co-Owner) and Rishab Bhati (Managing Director & Co-Owner), who are dedicated to providing premium, safe student housing in Greater Noida."
+    ans: "Saraswati Niwas was founded and is managed by Sudan Bhati (Founder & Co-Owner) and Rishab Bhati (Managing Director & Co-Owner), who are dedicated to providing signature, safe student housing in Greater Noida."
   },
   {
     keys: ["ac", "air condition", "cooler", "split ac", "ventilation", "fan"],

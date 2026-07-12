@@ -1,6 +1,6 @@
 export const SITE_NAME = "Saraswati Niwas";
 export const TAGLINE = "Your Home Away From Home";
-export const DESCRIPTION = "Premium student, professional, and tourist accommodations near Knowledge Park 2, Knowledge Park 3, Pari Chowk, and IIMT in Greater Noida.";
+export const DESCRIPTION = "Signature student, professional, and tourist accommodations near Knowledge Park 2, Knowledge Park 3, Pari Chowk, and IIMT in Greater Noida.";
 
 export const CONTACT_INFO = {
   phone: "+91 92119 34081",

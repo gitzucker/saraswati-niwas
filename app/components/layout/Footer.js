@@ -60,7 +60,7 @@ export default function Footer() {
             </Link>
             <span className={styles.brandTagline}>Your Home Away From Home</span>
             <p className={styles.brandDescription}>
-              Premium hostels in Greater Noida designed for students and professionals.
+              Signature hostels in Greater Noida designed for students and professionals.
               Experience unmatched comfort, community, and convenience.
             </p>
           </div>

@@ -28,7 +28,7 @@ export default function GoogleMapWrapper({
   ];
 
   // If no API Key is set or it has placeholder value, render a beautiful custom interactive dashboard map.
-  // This dashboard map shows locations sidebar and highlights coordinates on click. It is extremely premium.
+  // This dashboard map shows locations sidebar and highlights coordinates on click. It is highly elevated.
   if (!APIKey || APIKey === "YOUR_GOOGLE_MAPS_API_KEY") {
     return (
       <div className={`${styles.container} ${className}`} style={{ height }}>

@@ -7,7 +7,7 @@ import './globals.css';
 export const metadata = {
   title: 'Saraswati Niwas — Your Home Away From Home',
   description:
-    'Premium hostels in Greater Noida for students, professionals, and travelers. Affordable stays near IIMT, Pari Chowk, Knowledge Park 2 & Knowledge Park 3 with modern amenities and vibrant community.',
+    'Signature hostels in Greater Noida for students, professionals, and travelers. Affordable stays near IIMT, Pari Chowk, Knowledge Park 2 & Knowledge Park 3 with modern amenities and vibrant community.',
   keywords: [
     'hostel Greater Noida',
     'PG Greater Noida',
@@ -22,7 +22,7 @@ export const metadata = {
   openGraph: {
     title: 'Saraswati Niwas — Your Home Away From Home',
     description:
-      'Premium hostels in Greater Noida for students, professionals, and travelers. Modern amenities, vibrant community, unbeatable prices.',
+      'Signature hostels in Greater Noida for students, professionals, and travelers. Modern amenities, vibrant community, unbeatable prices.',
     url: 'https://saraswatiniwas.com',
     siteName: 'Saraswati Niwas',
     locale: 'en_IN',
@@ -32,7 +32,7 @@ export const metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Saraswati Niwas — Premium Hostels in Greater Noida',
+        alt: 'Saraswati Niwas — Signature Hostels in Greater Noida',
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Saraswati Niwas — Your Home Away From Home',
     description:
-      'Premium hostels in Greater Noida for students, professionals, and travelers.',
+      'Signature hostels in Greater Noida for students, professionals, and travelers.',
     images: ['/og-image.jpg'],
   },
   robots: {

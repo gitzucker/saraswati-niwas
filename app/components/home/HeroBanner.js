@@ -40,7 +40,7 @@ export default function HeroBanner() {
 
             <ScrollReveal animation="fadeUp" delay={300}>
               <p className={styles.subheadline}>
-                Saraswati Niwas offers <strong className={styles.highlightText}>premium fully-managed</strong> student hostels and accommodations situated near <strong className={styles.highlightText}>major colleges</strong> in <span className="gradient-text">Knowledge Park 2</span> and <span className="gradient-text">Knowledge Park 3</span>.
+                Saraswati Niwas offers <strong className={styles.highlightText}>signature fully-managed</strong> student hostels and accommodations situated near <strong className={styles.highlightText}>major colleges</strong> in <span className="gradient-text">Knowledge Park 2</span> and <span className="gradient-text">Knowledge Park 3</span>.
               </p>
             </ScrollReveal>
 

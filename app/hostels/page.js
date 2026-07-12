@@ -64,7 +64,7 @@ function HostelsContent() {
         {/* Banner Section */}
         <div className={styles.heroBanner}>
           <h1 className={styles.headline}>Available Rooms in Greater Noida</h1>
-          <p className={styles.subheadline}>Find fully-managed, premium hostels near colleges and corporate hubs.</p>
+          <p className={styles.subheadline}>Find fully-managed, signature hostels near colleges and corporate hubs.</p>
         </div>
 
         {/* Search controls row */}

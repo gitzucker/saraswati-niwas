@@ -32,7 +32,7 @@ const PROPERTIES = [
     rating: 4.7,
     gender: "Boys Only",
     tagline: "Prime KP3 Study Hub, near GL Bajaj College",
-    description: "Premium boys' hostel situated in Knowledge Park 3. Featuring soundproof workspaces, high-speed fiber internet, and gym setups.",
+    description: "Signature boys' hostel situated in Knowledge Park 3. Featuring soundproof workspaces, high-speed fiber internet, and gym setups.",
     amenities: ["AC Setup", "Gym Access", "Laundry", "Mess", "Study Room"],
     coordinates: { top: 25, left: 65 },
     image: "/images/properties/common-area.png"
