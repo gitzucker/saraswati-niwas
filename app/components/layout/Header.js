@@ -64,9 +64,8 @@ export default function Header() {
               />
             </div>
             <div className={styles.logoTextContainer}>
-              <span className={styles.logoLineSaraswati}>SARASWATI</span>
-              <span className={styles.logoLineNiwas}>NIWAS</span>
-              <span className={styles.logoLineHostels}>HOSTELS</span>
+              <span className={styles.logoTextGolden}>SARASWATI NIWAS</span>
+              <span className={styles.logoTextHostels}>HOSTELS</span>
             </div>
           </Link>
 

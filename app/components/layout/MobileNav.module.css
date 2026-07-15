@@ -75,52 +75,37 @@
 
 .logoTextContainer {
   display: flex;
-  flex-direction: column;
-  line-height: 0.82;
-  align-items: stretch;
-  justify-content: center;
-  margin-left: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
 }
 
-.logoLineSaraswati {
+.logoTextGolden {
   font-family: 'Bebas Neue', Impact, sans-serif;
-  font-weight: 800;
-  font-size: 0.85rem;
+  font-weight: 900;
+  font-size: 1.55rem;
   background: linear-gradient(135deg, #E5C158 0%, #B88E2F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  text-align: center;
+  display: inline-block;
 }
 
-.logoLineNiwas {
+.logoTextHostels {
   font-family: 'Bebas Neue', Impact, sans-serif;
-  font-weight: 800;
-  font-size: 1.38rem;
-  background: linear-gradient(135deg, #E5C158 0%, #B88E2F 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-align: center;
-  margin-right: -0.12em;
-}
-
-.logoLineHostels {
-  font-family: 'Bebas Neue', Impact, sans-serif;
-  font-weight: 800;
-  font-size: 1.0rem;
-  color: #000000;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #FFFFFF;
   background-color: #E5C158;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  padding: 1px 2px;
-  margin-top: 1px;
-  display: block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .closeButton {
