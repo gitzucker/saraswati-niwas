@@ -247,3 +247,27 @@
 .contactItem a:hover {
   color: var(--primary);
 }
+
+@media (max-width: 480px) {
+  .logoTextGolden {
+    font-size: 1.15rem;
+  }
+  .logoTextHostels {
+    font-size: 0.9rem;
+    padding: 2px 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logoTextGolden {
+    font-size: 0.95rem;
+  }
+  .logoTextHostels {
+    font-size: 0.8rem;
+    padding: 1px 4px;
+  }
+  .logoImageWrapper {
+    width: 36px;
+    height: 24px;
+  }
+}
