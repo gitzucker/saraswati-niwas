@@ -52,7 +52,11 @@ export default function MobileNav({ isOpen, onClose, links }) {
                 className={styles.logoImage}
               />
             </div>
-            <span className={styles.panelLogoText}>Saraswati Niwas</span>
+            <div className={styles.logoTextContainer}>
+              <span className={styles.logoLineSaraswati}>SARASWATI</span>
+              <span className={styles.logoLineNiwas}>NIWAS</span>
+              <span className={styles.logoLineHostels}>HOSTELS</span>
+            </div>
           </Link>
           <button
             className={styles.closeButton}

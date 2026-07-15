@@ -63,7 +63,11 @@ export default function Header() {
                 priority
               />
             </div>
-            <span className={styles.logoText}>Saraswati Niwas</span>
+            <div className={styles.logoTextContainer}>
+              <span className={styles.logoLineSaraswati}>SARASWATI</span>
+              <span className={styles.logoLineNiwas}>NIWAS</span>
+              <span className={styles.logoLineHostels}>HOSTELS</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
